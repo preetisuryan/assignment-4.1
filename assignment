@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+background-color:red;
+display:none;
+}
+span:hover+div{
+display:block;
+}
+</style>
+</head>
+<body>
+<span>roll over me</span>
+<div>yeahhh...</div>
+</body>
+</html>
